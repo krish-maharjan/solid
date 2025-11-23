@@ -1,6 +1,6 @@
 # Solid Builder
 
-A minimal Python demonstration of the Builder pattern for form construction with lazy auto‑discovery of concrete builders. It uses a simple `FormFactory` and `FormDirector` to compose and build forms at runtime.
+A minimal Python demonstration of the Builder, Registry pattern for form construction with lazy auto‑discovery of concrete builders. It uses a simple `FormFactory` and `FormDirector` to compose and build forms at runtime.
 
 ## Features
 - Runtime selection of builders via `FormFactory.create(key)`
